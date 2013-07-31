@@ -13,8 +13,6 @@
 		9044854A1788D72B009D2F8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 904485481788D72B009D2F8D /* InfoPlist.strings */; };
 		9044854C1788D72B009D2F8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9044854B1788D72B009D2F8D /* main.m */; };
 		904485501788D72B009D2F8D /* HoneyBadgerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9044854F1788D72B009D2F8D /* HoneyBadgerAppDelegate.m */; };
-		904485531788D72B009D2F8D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904485511788D72B009D2F8D /* Main_iPhone.storyboard */; };
-		904485561788D72B009D2F8D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904485541788D72B009D2F8D /* Main_iPad.storyboard */; };
 		904485591788D72B009D2F8D /* HoneyBadgerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904485581788D72B009D2F8D /* HoneyBadgerViewController.m */; };
 		9044855B1788D72B009D2F8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9044855A1788D72B009D2F8D /* Images.xcassets */; };
 		904485621788D72B009D2F8D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904485611788D72B009D2F8D /* XCTest.framework */; };
@@ -22,6 +20,41 @@
 		904485641788D72B009D2F8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904485431788D72B009D2F8D /* UIKit.framework */; };
 		9044856C1788D72B009D2F8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9044856A1788D72B009D2F8D /* InfoPlist.strings */; };
 		9044856E1788D72B009D2F8D /* HoneyBadger_CRMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9044856D1788D72B009D2F8D /* HoneyBadger_CRMTests.m */; };
+		9044CB91178BE24E00845ED8 /* blue-gradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9044CB90178BE0D500845ED8 /* blue-gradient.jpg */; };
+		90694DC517A465AA00D79F1D /* button_login_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 90694DC317A465AA00D79F1D /* button_login_twitter.png */; };
+		90694DC617A465AA00D79F1D /* button_login_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 90694DC417A465AA00D79F1D /* button_login_facebook.png */; };
+		90694DCB17A48D8400D79F1D /* appbar.facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 90694DC717A48D8400D79F1D /* appbar.facebook.png */; };
+		90694DCC17A48D8400D79F1D /* appbar.googleplus.png in Resources */ = {isa = PBXBuildFile; fileRef = 90694DC817A48D8400D79F1D /* appbar.googleplus.png */; };
+		90694DCD17A48D8400D79F1D /* appbar.os.windows.8.png in Resources */ = {isa = PBXBuildFile; fileRef = 90694DC917A48D8400D79F1D /* appbar.os.windows.8.png */; };
+		90694DCE17A48D8400D79F1D /* appbar.twitter.bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 90694DCA17A48D8400D79F1D /* appbar.twitter.bird.png */; };
+		90694DD217A494B700D79F1D /* MB_0026_twitter3.png in Resources */ = {isa = PBXBuildFile; fileRef = 90694DCF17A494B700D79F1D /* MB_0026_twitter3.png */; };
+		90694DD317A494B700D79F1D /* MB_0024_g-google.png in Resources */ = {isa = PBXBuildFile; fileRef = 90694DD017A494B700D79F1D /* MB_0024_g-google.png */; };
+		90694DD417A494B700D79F1D /* MB_0009_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 90694DD117A494B700D79F1D /* MB_0009_facebook.png */; };
+		90694DD717A4976400D79F1D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90694DD617A4976300D79F1D /* LoginViewController.m */; };
+		9074AC46179FA38F005E52CE /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9074AC45179FA38F005E52CE /* AddressBook.framework */; };
+		9074AC47179FA3C3005E52CE /* iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904485511788D72B009D2F8D /* iphone.storyboard */; };
+		9074AC4A179FA723005E52CE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9074AC49179FA723005E52CE /* Default-568h@2x.png */; };
+		9074AC4C17A04C0F005E52CE /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9074AC4B17A04C0F005E52CE /* statedictionary.plist */; };
+		9074AC4F17A06CDA005E52CE /* CompanyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9074AC4E17A06CDA005E52CE /* CompanyInfoViewController.m */; };
+		9074AC5217A0890B005E52CE /* CompanyContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9074AC5117A0890B005E52CE /* CompanyContactViewController.m */; };
+		9074AC5517A08D9C005E52CE /* honeyBadgerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9074AC5417A08D9C005E52CE /* honeyBadgerService.m */; };
+		9074AC5717A08EAA005E52CE /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9074AC5617A08EAA005E52CE /* WindowsAzureMobileServices.framework */; };
+		9074AC5B17A0A411005E52CE /* CampaignsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9074AC5A17A0A411005E52CE /* CampaignsViewController.m */; };
+		9097749A1789456A005D05B6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 909774991789456A005D05B6 /* MapKit.framework */; };
+		90A243ED178946FD00686B2F /* TargetsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9097749717894383005D05B6 /* TargetsViewController.m */; };
+		90A243F017894B3900686B2F /* DnBCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A243EE178948D000686B2F /* DnBCompany.m */; };
+		90A243F317894C5E00686B2F /* DnBCompanyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A243F117894C5A00686B2F /* DnBCompanyLocation.m */; };
+		90A243F5178953F200686B2F /* range_large.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A243F41789513F00686B2F /* range_large.png */; };
+		90A243F8178956F300686B2F /* LookAroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A243F7178954F300686B2F /* LookAroundViewController.m */; };
+		90A243FA1789680000686B2F /* basket.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A243F9178967F400686B2F /* basket.png */; };
+		90A243FF17896CD800686B2F /* basket40.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A243FE17896CD300686B2F /* basket40.png */; };
+		90F209D917A71E6700269965 /* CompanyCampaignsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F209D817A71E6700269965 /* CompanyCampaignsViewController.m */; };
+		90FF8CB01788FD8B0003786C /* hb.png in Resources */ = {isa = PBXBuildFile; fileRef = 90FF8CAF1788FCFC0003786C /* hb.png */; };
+		90FF8CB3178902FB0003786C /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 90FF8CB2178902CC0003786C /* login.png */; };
+		90FF8CB4178902FE0003786C /* takealook.png in Resources */ = {isa = PBXBuildFile; fileRef = 90FF8CB11789018B0003786C /* takealook.png */; };
+		90FF8CB717893CD00003786C /* poi.png in Resources */ = {isa = PBXBuildFile; fileRef = 90FF8CB517893BC80003786C /* poi.png */; };
+		90FF8CB817893CD20003786C /* range.png in Resources */ = {isa = PBXBuildFile; fileRef = 90FF8CB617893BC80003786C /* range.png */; };
+		90FF8CBC17893F910003786C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FF8CBB17893F910003786C /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +78,7 @@
 		9044854D1788D72B009D2F8D /* HoneyBadger CRM-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HoneyBadger CRM-Prefix.pch"; sourceTree = "<group>"; };
 		9044854E1788D72B009D2F8D /* HoneyBadgerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoneyBadgerAppDelegate.h; sourceTree = "<group>"; };
 		9044854F1788D72B009D2F8D /* HoneyBadgerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoneyBadgerAppDelegate.m; sourceTree = "<group>"; };
-		904485521788D72B009D2F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		904485551788D72B009D2F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		904485521788D72B009D2F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iphone.storyboard; sourceTree = "<group>"; };
 		904485571788D72B009D2F8D /* HoneyBadgerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoneyBadgerViewController.h; sourceTree = "<group>"; };
 		904485581788D72B009D2F8D /* HoneyBadgerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoneyBadgerViewController.m; sourceTree = "<group>"; };
 		9044855A1788D72B009D2F8D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +87,50 @@
 		904485691788D72B009D2F8D /* HoneyBadger CRMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HoneyBadger CRMTests-Info.plist"; sourceTree = "<group>"; };
 		9044856B1788D72B009D2F8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9044856D1788D72B009D2F8D /* HoneyBadger_CRMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoneyBadger_CRMTests.m; sourceTree = "<group>"; };
+		9044CB90178BE0D500845ED8 /* blue-gradient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blue-gradient.jpg"; sourceTree = "<group>"; };
+		90694DC317A465AA00D79F1D /* button_login_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_login_twitter.png; sourceTree = "<group>"; };
+		90694DC417A465AA00D79F1D /* button_login_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_login_facebook.png; sourceTree = "<group>"; };
+		90694DC717A48D8400D79F1D /* appbar.facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appbar.facebook.png; sourceTree = "<group>"; };
+		90694DC817A48D8400D79F1D /* appbar.googleplus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appbar.googleplus.png; sourceTree = "<group>"; };
+		90694DC917A48D8400D79F1D /* appbar.os.windows.8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appbar.os.windows.8.png; sourceTree = "<group>"; };
+		90694DCA17A48D8400D79F1D /* appbar.twitter.bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appbar.twitter.bird.png; sourceTree = "<group>"; };
+		90694DCF17A494B700D79F1D /* MB_0026_twitter3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MB_0026_twitter3.png; sourceTree = "<group>"; };
+		90694DD017A494B700D79F1D /* MB_0024_g-google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MB_0024_g-google.png"; sourceTree = "<group>"; };
+		90694DD117A494B700D79F1D /* MB_0009_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MB_0009_facebook.png; sourceTree = "<group>"; };
+		90694DD517A4976300D79F1D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = ../LoginViewController.h; sourceTree = "<group>"; };
+		90694DD617A4976300D79F1D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = ../LoginViewController.m; sourceTree = "<group>"; };
+		9074AC45179FA38F005E52CE /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		9074AC49179FA723005E52CE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9074AC4B17A04C0F005E52CE /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
+		9074AC4D17A06CDA005E52CE /* CompanyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyInfoViewController.h; sourceTree = "<group>"; };
+		9074AC4E17A06CDA005E52CE /* CompanyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyInfoViewController.m; sourceTree = "<group>"; };
+		9074AC5017A0890B005E52CE /* CompanyContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyContactViewController.h; sourceTree = "<group>"; };
+		9074AC5117A0890B005E52CE /* CompanyContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyContactViewController.m; sourceTree = "<group>"; };
+		9074AC5317A08D9C005E52CE /* honeyBadgerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = honeyBadgerService.h; sourceTree = "<group>"; };
+		9074AC5417A08D9C005E52CE /* honeyBadgerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = honeyBadgerService.m; sourceTree = "<group>"; };
+		9074AC5617A08EAA005E52CE /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WindowsAzureMobileServices.framework; path = "HoneyBadger CRM/WindowsAzureMobileServices.framework"; sourceTree = "<group>"; };
+		9074AC5917A0A411005E52CE /* CampaignsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampaignsViewController.h; sourceTree = "<group>"; };
+		9074AC5A17A0A411005E52CE /* CampaignsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampaignsViewController.m; sourceTree = "<group>"; };
+		9097749717894383005D05B6 /* TargetsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TargetsViewController.m; sourceTree = "<group>"; };
+		9097749817894383005D05B6 /* TargetsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TargetsViewController.h; sourceTree = "<group>"; };
+		909774991789456A005D05B6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		90A243EE178948D000686B2F /* DnBCompany.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DnBCompany.m; sourceTree = "<group>"; };
+		90A243EF178948D000686B2F /* DnBCompany.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DnBCompany.h; sourceTree = "<group>"; };
+		90A243F117894C5A00686B2F /* DnBCompanyLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DnBCompanyLocation.m; sourceTree = "<group>"; };
+		90A243F217894C5A00686B2F /* DnBCompanyLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DnBCompanyLocation.h; sourceTree = "<group>"; };
+		90A243F41789513F00686B2F /* range_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = range_large.png; sourceTree = "<group>"; };
+		90A243F6178954F300686B2F /* LookAroundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LookAroundViewController.h; sourceTree = "<group>"; };
+		90A243F7178954F300686B2F /* LookAroundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookAroundViewController.m; sourceTree = "<group>"; };
+		90A243F9178967F400686B2F /* basket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basket.png; sourceTree = "<group>"; };
+		90A243FE17896CD300686B2F /* basket40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basket40.png; sourceTree = "<group>"; };
+		90F209D717A71E6700269965 /* CompanyCampaignsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyCampaignsViewController.h; sourceTree = "<group>"; };
+		90F209D817A71E6700269965 /* CompanyCampaignsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyCampaignsViewController.m; sourceTree = "<group>"; };
+		90FF8CAF1788FCFC0003786C /* hb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hb.png; sourceTree = "<group>"; };
+		90FF8CB11789018B0003786C /* takealook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = takealook.png; sourceTree = "<group>"; };
+		90FF8CB2178902CC0003786C /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		90FF8CB517893BC80003786C /* poi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poi.png; sourceTree = "<group>"; };
+		90FF8CB617893BC80003786C /* range.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = range.png; sourceTree = "<group>"; };
+		90FF8CBB17893F910003786C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +138,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9074AC46179FA38F005E52CE /* AddressBook.framework in Frameworks */,
+				9097749A1789456A005D05B6 /* MapKit.framework in Frameworks */,
+				90FF8CBC17893F910003786C /* CoreLocation.framework in Frameworks */,
 				904485421788D72B009D2F8D /* CoreGraphics.framework in Frameworks */,
 				904485441788D72B009D2F8D /* UIKit.framework in Frameworks */,
 				904485401788D72B009D2F8D /* Foundation.framework in Frameworks */,
+				9074AC5717A08EAA005E52CE /* WindowsAzureMobileServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +164,10 @@
 		904485331788D72B009D2F8D = {
 			isa = PBXGroup;
 			children = (
+				9074AC49179FA723005E52CE /* Default-568h@2x.png */,
+				9074AC45179FA38F005E52CE /* AddressBook.framework */,
 				904485451788D72B009D2F8D /* HoneyBadger CRM */,
+				904485461788D72B009D2F8D /* Supporting Files */,
 				904485671788D72B009D2F8D /* HoneyBadger CRMTests */,
 				9044853E1788D72B009D2F8D /* Frameworks */,
 				9044853D1788D72B009D2F8D /* Products */,
@@ -103,6 +186,9 @@
 		9044853E1788D72B009D2F8D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9074AC5617A08EAA005E52CE /* WindowsAzureMobileServices.framework */,
+				909774991789456A005D05B6 /* MapKit.framework */,
+				90FF8CBB17893F910003786C /* CoreLocation.framework */,
 				9044853F1788D72B009D2F8D /* Foundation.framework */,
 				904485411788D72B009D2F8D /* CoreGraphics.framework */,
 				904485431788D72B009D2F8D /* UIKit.framework */,
@@ -114,14 +200,34 @@
 		904485451788D72B009D2F8D /* HoneyBadger CRM */ = {
 			isa = PBXGroup;
 			children = (
-				9044854E1788D72B009D2F8D /* HoneyBadgerAppDelegate.h */,
+				90F209D617A7093600269965 /* images */,
+				9044855A1788D72B009D2F8D /* Images.xcassets */,
+				904485511788D72B009D2F8D /* iphone.storyboard */,
+				90A243EE178948D000686B2F /* DnBCompany.m */,
+				90A243EF178948D000686B2F /* DnBCompany.h */,
+				90A243F117894C5A00686B2F /* DnBCompanyLocation.m */,
+				90A243F217894C5A00686B2F /* DnBCompanyLocation.h */,
+				9074AC5317A08D9C005E52CE /* honeyBadgerService.h */,
+				9074AC5417A08D9C005E52CE /* honeyBadgerService.m */,
+				9074AC4B17A04C0F005E52CE /* statedictionary.plist */,
+				9097749717894383005D05B6 /* TargetsViewController.m */,
+				9097749817894383005D05B6 /* TargetsViewController.h */,
 				9044854F1788D72B009D2F8D /* HoneyBadgerAppDelegate.m */,
-				904485511788D72B009D2F8D /* Main_iPhone.storyboard */,
-				904485541788D72B009D2F8D /* Main_iPad.storyboard */,
+				9044854E1788D72B009D2F8D /* HoneyBadgerAppDelegate.h */,
 				904485571788D72B009D2F8D /* HoneyBadgerViewController.h */,
 				904485581788D72B009D2F8D /* HoneyBadgerViewController.m */,
-				9044855A1788D72B009D2F8D /* Images.xcassets */,
-				904485461788D72B009D2F8D /* Supporting Files */,
+				90A243F6178954F300686B2F /* LookAroundViewController.h */,
+				90A243F7178954F300686B2F /* LookAroundViewController.m */,
+				9074AC4D17A06CDA005E52CE /* CompanyInfoViewController.h */,
+				9074AC4E17A06CDA005E52CE /* CompanyInfoViewController.m */,
+				9074AC5017A0890B005E52CE /* CompanyContactViewController.h */,
+				9074AC5117A0890B005E52CE /* CompanyContactViewController.m */,
+				9074AC5917A0A411005E52CE /* CampaignsViewController.h */,
+				9074AC5A17A0A411005E52CE /* CampaignsViewController.m */,
+				90F209D717A71E6700269965 /* CompanyCampaignsViewController.h */,
+				90F209D817A71E6700269965 /* CompanyCampaignsViewController.m */,
+				90694DD517A4976300D79F1D /* LoginViewController.h */,
+				90694DD617A4976300D79F1D /* LoginViewController.m */,
 			);
 			path = "HoneyBadger CRM";
 			sourceTree = "<group>";
@@ -135,6 +241,7 @@
 				9044854D1788D72B009D2F8D /* HoneyBadger CRM-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = "HoneyBadger CRM";
 			sourceTree = "<group>";
 		};
 		904485671788D72B009D2F8D /* HoneyBadger CRMTests */ = {
@@ -153,6 +260,31 @@
 				9044856A1788D72B009D2F8D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90F209D617A7093600269965 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				90FF8CB517893BC80003786C /* poi.png */,
+				90FF8CB617893BC80003786C /* range.png */,
+				90FF8CB2178902CC0003786C /* login.png */,
+				90FF8CB11789018B0003786C /* takealook.png */,
+				90FF8CAF1788FCFC0003786C /* hb.png */,
+				90A243F9178967F400686B2F /* basket.png */,
+				90A243F41789513F00686B2F /* range_large.png */,
+				9044CB90178BE0D500845ED8 /* blue-gradient.jpg */,
+				90A243FE17896CD300686B2F /* basket40.png */,
+				90694DCF17A494B700D79F1D /* MB_0026_twitter3.png */,
+				90694DD017A494B700D79F1D /* MB_0024_g-google.png */,
+				90694DD117A494B700D79F1D /* MB_0009_facebook.png */,
+				90694DC717A48D8400D79F1D /* appbar.facebook.png */,
+				90694DC817A48D8400D79F1D /* appbar.googleplus.png */,
+				90694DC917A48D8400D79F1D /* appbar.os.windows.8.png */,
+				90694DCA17A48D8400D79F1D /* appbar.twitter.bird.png */,
+				90694DC317A465AA00D79F1D /* button_login_twitter.png */,
+				90694DC417A465AA00D79F1D /* button_login_facebook.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,10 +364,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				904485561788D72B009D2F8D /* Main_iPad.storyboard in Resources */,
+				90A243FA1789680000686B2F /* basket.png in Resources */,
+				90A243F5178953F200686B2F /* range_large.png in Resources */,
+				90FF8CB817893CD20003786C /* range.png in Resources */,
+				90A243FF17896CD800686B2F /* basket40.png in Resources */,
+				90FF8CB717893CD00003786C /* poi.png in Resources */,
+				9044CB91178BE24E00845ED8 /* blue-gradient.jpg in Resources */,
+				90FF8CB4178902FE0003786C /* takealook.png in Resources */,
+				90FF8CB3178902FB0003786C /* login.png in Resources */,
+				9074AC47179FA3C3005E52CE /* iphone.storyboard in Resources */,
+				90FF8CB01788FD8B0003786C /* hb.png in Resources */,
 				9044855B1788D72B009D2F8D /* Images.xcassets in Resources */,
-				904485531788D72B009D2F8D /* Main_iPhone.storyboard in Resources */,
 				9044854A1788D72B009D2F8D /* InfoPlist.strings in Resources */,
+				9074AC4A179FA723005E52CE /* Default-568h@2x.png in Resources */,
+				9074AC4C17A04C0F005E52CE /* statedictionary.plist in Resources */,
+				90694DC517A465AA00D79F1D /* button_login_twitter.png in Resources */,
+				90694DC617A465AA00D79F1D /* button_login_facebook.png in Resources */,
+				90694DCB17A48D8400D79F1D /* appbar.facebook.png in Resources */,
+				90694DCC17A48D8400D79F1D /* appbar.googleplus.png in Resources */,
+				90694DCD17A48D8400D79F1D /* appbar.os.windows.8.png in Resources */,
+				90694DCE17A48D8400D79F1D /* appbar.twitter.bird.png in Resources */,
+				90694DD217A494B700D79F1D /* MB_0026_twitter3.png in Resources */,
+				90694DD317A494B700D79F1D /* MB_0024_g-google.png in Resources */,
+				90694DD417A494B700D79F1D /* MB_0009_facebook.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +405,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90A243F8178956F300686B2F /* LookAroundViewController.m in Sources */,
 				904485591788D72B009D2F8D /* HoneyBadgerViewController.m in Sources */,
 				9044854C1788D72B009D2F8D /* main.m in Sources */,
+				90A243F017894B3900686B2F /* DnBCompany.m in Sources */,
 				904485501788D72B009D2F8D /* HoneyBadgerAppDelegate.m in Sources */,
+				90A243ED178946FD00686B2F /* TargetsViewController.m in Sources */,
+				90A243F317894C5E00686B2F /* DnBCompanyLocation.m in Sources */,
+				9074AC4F17A06CDA005E52CE /* CompanyInfoViewController.m in Sources */,
+				9074AC5217A0890B005E52CE /* CompanyContactViewController.m in Sources */,
+				9074AC5517A08D9C005E52CE /* honeyBadgerService.m in Sources */,
+				9074AC5B17A0A411005E52CE /* CampaignsViewController.m in Sources */,
+				90694DD717A4976400D79F1D /* LoginViewController.m in Sources */,
+				90F209D917A71E6700269965 /* CompanyCampaignsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,20 +448,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		904485511788D72B009D2F8D /* Main_iPhone.storyboard */ = {
+		904485511788D72B009D2F8D /* iphone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				904485521788D72B009D2F8D /* Base */,
 			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		904485541788D72B009D2F8D /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				904485551788D72B009D2F8D /* Base */,
-			);
-			name = Main_iPad.storyboard;
+			name = iphone.storyboard;
 			sourceTree = "<group>";
 		};
 		9044856A1788D72B009D2F8D /* InfoPlist.strings */ = {
@@ -389,10 +542,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HoneyBadger CRM\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HoneyBadger CRM/HoneyBadger CRM-Prefix.pch";
 				INFOPLIST_FILE = "HoneyBadger CRM/HoneyBadger CRM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -402,10 +561,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/HoneyBadger CRM\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HoneyBadger CRM/HoneyBadger CRM-Prefix.pch";
 				INFOPLIST_FILE = "HoneyBadger CRM/HoneyBadger CRM-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -469,6 +634,7 @@
 				904485731788D72B009D2F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		904485741788D72B009D2F8D /* Build configuration list for PBXNativeTarget "HoneyBadger CRMTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +643,7 @@
 				904485761788D72B009D2F8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

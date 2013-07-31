@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HoneyBadgerViewController : UIViewController
+@interface HoneyBadgerViewController : UITableViewController
+@property (weak, nonatomic) IBOutlet UIButton *lookAround;
+- (IBAction)lookAroundPressed:(id)sender;
 
 @end

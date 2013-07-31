@@ -17,7 +17,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    //set background image and separator colors
+    self.tableView.separatorColor = [UIColor clearColor];
+    //self.tableView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"blue-gradient.jpg"]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +28,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)lookAroundPressed:(id)sender {
+    
+    [self.tabBarController setSelectedIndex: 1];
+}
 @end
